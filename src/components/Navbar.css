@@ -1,11 +1,16 @@
 /* Add your custom CSS for Navbar component here */
+/* Navbar.css */
 .navbar {
+  position: fixed; /* Set the navbar position as fixed */
+  top: 0; /* Position the navbar at the top */
+  width: 100%; /* Make the navbar stretch to the full width of the viewport */
   background-color: #333;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 20px 20px;
+  z-index: 999; /* Add a high z-index to ensure the navbar stays above other content */
 }
 
 .logo a {
@@ -14,7 +19,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  transition: transform 0.2s ease, color 0.2s ease; /* Add transitions for scaling and color change */
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .camera-icon {
@@ -39,6 +44,8 @@
   margin-left: 20px;
   font-size: 18px;
   transition: color 0.3s ease;
+  margin-right: 50px;
+
 }
 
 /* Hover style for navigation links */

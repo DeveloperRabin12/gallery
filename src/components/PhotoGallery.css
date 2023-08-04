@@ -1,13 +1,32 @@
-/* Add your custom CSS for PhotoGallery component here */
+/* PhotoGallery.css */
 .photo-gallery-container {
+  padding-top: 60px; /* Add padding for the fixed navbar */
   height: calc(100vh - 60px); /* Adjust the 60px to the height of your navbar if needed */
   overflow-y: auto;
+  margin-top: 5px;
+  padding-bottom: 80px; /* Add padding at the bottom to prevent overlapping with the footer */
+}
+h1{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 4px #000;
+  color: transparent;
+  position: sticky;
+  top: 0px;
+  
 }
 
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
+  padding-top: 20px; /* Add padding to create space for the h1 element */
 }
 
 .photo-gallery img {

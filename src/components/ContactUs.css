@@ -1,0 +1,87 @@
+/* ContactUs.css */
+.contact-us-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .contact-header {
+    margin-bottom: 30px;
+  }
+  
+  .contact-header p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .contact-image img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form,
+  .thank-you-message {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  button[type='submit'] {
+    background-color: #304dc1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #5358d9;
+  }
+  
+  .thank-you-message {
+    text-align: center;
+    background-color: #dff0d8;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .thank-you-message h2 {
+    margin-bottom: 10px;
+  }
+  
