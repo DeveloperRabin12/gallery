@@ -1,0 +1,35 @@
+/* Add your custom CSS for ImageSlider component here */
+.image-slider {
+  margin-top: 2px;
+  position: relative;
+  height: calc(100vh - 60px); /* Adjust the 60px to the height of your navbar if needed */
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-controls button {
+  background-color: #b09b9b;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider-controls button:hover {
+  background-color: #666;
+}
